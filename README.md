@@ -14,3 +14,4 @@ The next wave of social media applications built on-chain will be built with Uni
 </div>
 
 # References
+https://www.figma.com/file/IaPdYsgsTbbWoGAaOtVgPJ/Lukso---Social-%26-DAO's-Challenge-(Copy)?node-id=0%3A1
