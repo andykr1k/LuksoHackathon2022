@@ -3,6 +3,9 @@
 }
 body {
     background-color: #fef4f1;
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 .cols{
     display: flex;
@@ -10,10 +13,12 @@ body {
 }
 
 /* Left Block */
+.frontpic{
+
+}
 .frontpic img{
 
 }
-
 /* Right Block */
 .form{
     display: flex;
@@ -33,7 +38,8 @@ body {
 .formbubbles{
     background-color: #A7DEFC;
     border-radius: 20px;
-    border-color: #A7DEFC;;
+    border-width: 1px;
+    border-color: #82BEF9;
     margin-top: 5px;
     width: 500px;
     height: 40px;
