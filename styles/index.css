@@ -1,0 +1,69 @@
+*{
+    font-family: IBM Plex Mono;
+}
+body {
+    background-color: #fef4f1;
+}
+.cols{
+    display: flex;
+    width: 50%;
+}
+
+/* Left Block */
+.frontpic img{
+
+}
+
+/* Right Block */
+.form{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+.fronttext{
+    font-size:58px;
+    margin: 0;
+    margin-bottom: 25px;
+    color: #444343;
+}
+.formelements{
+
+}
+.formbubbles{
+    background-color: #A7DEFC;
+    border-radius: 20px;
+    border-color: #A7DEFC;;
+    margin-top: 5px;
+    width: 500px;
+    height: 40px;
+    font-size: 24px;
+    color: #fef4f1;
+    padding-left: 10px;
+}
+.formbubbles:hover{
+    box-shadow: 0.25ch 0.25ch #00000024;
+}
+.formbubbles:focus{
+    box-shadow: 0.25ch 0.25ch #00000024;
+}
+.formelements button{
+    background-color: #A7DEFC;
+    border-color: #82BEF9;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fef4f1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.formelements button:hover{
+    box-shadow: 0.25ch 0.25ch #00000024;
+}
+.formelements button:focus{
+    box-shadow: 0.25ch 0.25ch #00000024;
+}
+::placeholder{
+    color: #fef4f1;
+    padding-left: 10px; 
+}
