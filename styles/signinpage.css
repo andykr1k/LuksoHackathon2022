@@ -1,30 +1,46 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: IBM Plex Mono;
 }
-body {
+html{
     background-color: #fef4f1;
-    margin: 0;
-    width: 100%;
-    height: 100%;
+}
+body {
+    height: 100vh;
 }
 .cols{
+    text-align: center;
+    padding: 2rem 2rem;
+    position: relative;
+}
+section {
     display: flex;
-    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
 }
 
 /* Left Block */
 .frontpic{
-
+    width: 50%;
+    float: left;
 }
 .frontpic img{
-
+    max-width: 500px;
+    width: 100%;
+    height: auto;
 }
+
 /* Right Block */
 .form{
-    display: flex;
-    text-align: center;
-    vertical-align: middle;
-    align-items: center;
+    width: 50%;
+    float: left;
+    position: absolute;
+    top: 25%;
+    left: 50%;
 }
 .fronttext{
     font-size:58px;
@@ -33,7 +49,7 @@ body {
     color: #444343;
 }
 .formelements{
-
+    margin-top: 10px;
 }
 .formbubbles{
     background-color: #A7DEFC;
@@ -60,8 +76,7 @@ body {
     margin-top: 10px;
     font-size: 18px;
     color: #fef4f1;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
 }
 .formelements button:hover{
     box-shadow: 0.25ch 0.25ch #00000024;
